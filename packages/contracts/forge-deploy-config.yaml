@@ -1,0 +1,25 @@
+addresses:
+  AddressManagerOwner: '0x70997970c51812dc3a010c7d01b50e0d17dc79c8'
+  Lib_AddressManager: '0x0000000000000000000000000000000000000000'
+  Proxy__BVM_L1CrossDomainMessenger: 0x
+  Proxy__BVM_L1StandardBridge: 0x
+  StateCommitmentChain: 0x
+  L1MantleToken: '0x0000000000000000000000000000000000000000'
+  Proxy__L1MantleToken: '0x0000000000000000000000000000000000000000'
+  TestBitToken: 0x
+AddressManager:
+  deploy: true
+L1MantleToken:
+  deploy: true
+  deployProxy: true
+AssertionMap:
+  deploy: true
+  deployProxy: true
+VerifierEntry:
+  deploy: true
+  deployProxy: true
+Rollup:
+  deploy: true
+  deployProxy: true
+  proxyConstructorArgs:
+    a: 3
